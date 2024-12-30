@@ -20,6 +20,12 @@
 #include "analog.h"
 #include "opt_encoder.h"
 
+// Additions
+#define PLOOPY_DRAGSCROLL_INVERT
+#define PLOOPY_DRAGSCROLL_MOMENTARY
+#define PLOOPY_DRAGSCROLL_DIVISOR_H 24.0
+#define PLOOPY_DRAGSCROLL_DIVISOR_V 24.0
+
 // for legacy support
 #if defined(OPT_DEBOUNCE) && !defined(PLOOPY_SCROLL_DEBOUNCE)
 #    define PLOOPY_SCROLL_DEBOUNCE OPT_DEBOUNCE
